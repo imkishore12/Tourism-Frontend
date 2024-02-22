@@ -25,7 +25,7 @@ India Tourism, <b>Himachal Pradesh, Kerala, Goa, Madhya Pradesh, Gujarat, Mahara
 
   </p>
 </div>
-                    {arr.filter((data)=>data.category="indiatousrism" ).map((item)=>{
+                    {arr.filter((data)=>data.category=="indiatousrism" ).map((item)=>{
                        
                         return(
                             <>      
