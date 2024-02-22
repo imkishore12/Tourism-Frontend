@@ -34,7 +34,7 @@ function DynamicRouting(props) {
                             <img src={item.Image} style={{width:'80%',height:'70vh'}}/>
 
                             <h1>{item.State}</h1>
-                            <hr />
+                        
                             <p>{item.Description}</p>
                             <h2>How to Reach</h2>
                             <p>{item.Reach}</p>
@@ -47,6 +47,7 @@ function DynamicRouting(props) {
                     })}
 
                     {/* </div> */}
+                    
                     </div>
                     </div>
         </div>

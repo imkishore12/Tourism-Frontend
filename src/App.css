@@ -143,11 +143,12 @@
   gap: 20px;
   width: 80%;
   align-items: center;
+  text-align: justify;
  
  }
  .card{
   text-align:left;
-  width:350px;
+  width:380px;
   /* height:400px; */
   padding:5px;
   border-radius: 4px; 
@@ -165,9 +166,12 @@
   justify-content: center;
   align-items: center;
   width: 80%;
+  text-align: justify;
 }
 .main{
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (min-width:250px) and (max-width:600px){
     
