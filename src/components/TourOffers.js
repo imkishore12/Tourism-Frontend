@@ -10,7 +10,7 @@ function TourOffers(props) {
     console.log("token:",token)
 
     if(!token){
-      alert("please login to access your cart")
+      alert("please login to access your Tour Offers")
         navigate('/login')
     }
     else{
