@@ -1,11 +1,37 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
 
 function TourPackages(props) {
+
+  const navigate = useNavigate();
+  useEffect(()=>{
+    const token = localStorage.getItem('token');
+    console.log("token:",token)
+
+    if(!token){
+      alert("please login to access your Tour Packages")
+        navigate('/login')
+    }
+    else{
+        axios.get('https://tourismbackend.onrender.com/user/tourpackages', 
+        {headers:{
+            authorization: `Bearer ${token}`,
+        },
+    })
+    // .then(res=>{
+    //     const responseData = res.data;
+    //     // alert(responseData.msg)
+    //     alert("welcome to dashboard")
+    //     // setMessage(responseData.msg)
+    //     setMessage("Welcome to dashboard")
+    // })
+    }
+
+},[navigate])
     const[arr,setArr]=useState([])
   useEffect(()=>{
     axios.get('https://tourismbackend.onrender.com/products')

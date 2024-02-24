@@ -28,7 +28,7 @@ function Navbar(props) {
                 <NavLink to='/tourpackages'>TOUR PACKAGES</NavLink>
                 <NavLink to='/placestovisit'>PLACES TO VISITS</NavLink>
                 <NavLink to='/touroffers'>TOUR OFFERS</NavLink>
-                <NavLink to='/touroffers'>CONTACT US</NavLink>
+                <NavLink to='/contactus'>CONTACT US</NavLink>
             </nav>
         </div>
     );

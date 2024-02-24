@@ -131,6 +131,7 @@
 .container{
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
@@ -140,7 +141,7 @@
   justify-content:space-evenly;
   padding:15px;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px;
   width: 80%;
   align-items: center;
   text-align: justify;
@@ -148,7 +149,7 @@
  }
  .card{
   text-align:left;
-  width:380px;
+  width:360px;
   /* height:400px; */
   padding:5px;
   border-radius: 4px; 
@@ -158,6 +159,21 @@
 .card:hover{ 
   cursor: pointer;
   box-shadow: 0 24px 38px 3px rgba(0,0,0,0.14), 0 9px 46px 8px rgba(0,0,0,0.12), 0 11px 15px -7px rgba(0,0,0,0.2);
+}
+.cards{
+  width: 220px;
+  /* height: 200px; */
+
+  justify-content: space-evenly;
+  gap:20px;
+}
+.cards1{
+  width: 220px;
+  /* height: 200px; */
+
+  justify-content: space-evenly;
+  gap:20px;
+  height: 280px;
 }
 .dynamicflex{
   display:flex; 
@@ -173,8 +189,92 @@
   display: flex;
   justify-content: center;
 }
+
+
+
+
+
+
+
+
+
+
+.footer
+{
+  background-color: black;
+  margin-top: 5%;
+  margin-bottom: 1px;
+  /* margin-left: 20px;
+  margin-right: 20px; */
+}
+
+
+.social
+{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin:2px;
+}
+
+.social a 
+{
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid beige;
+  color: whitesmoke;
+  width: 25px;
+  padding: 10px;
+  border-radius: 8px;
+  margin:2px;
+}
+
+.social a:hover
+{
+  background-color: antiquewhite;
+}
+
+.footer ul 
+{
+  list-style: none;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.footer ul li 
+{
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.footer ul li a 
+{
+  text-decoration: none;
+  color: whitesmoke;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.footer ul li a:hover
+{
+  color: skyblue;
+}
+.footer{
+  width: 100%;
+}
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: wheat;
+  flex-direction: column;
+}
 @media screen and (min-width:250px) and (max-width:600px){
+  *{
+    margin: 0;
+    padding: 0;
     
+  }
 #mobile {
   display: block;
 }

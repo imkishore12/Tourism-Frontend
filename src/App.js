@@ -4,6 +4,7 @@ import './App.css';
 import { NavLink } from 'react-router-dom';
 import Navbar from './Route/Navbar';
 import Routing from './Route/Routing';
+import Footer from './Route/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         </a>
       </header> */}
       <Routing/>
+      <Footer />
       {/* <Navbar/> */}
     </div>
   );
