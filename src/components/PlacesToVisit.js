@@ -21,7 +21,7 @@ function PlacesToVisit(props) {
 <div className='moresuggestscard'>
 <div>
   <center><h1>Top Tourist Destination India</h1></center><hr></hr>
-<p style={{fontSize:'18px'}}>
+<p className='para'>
 
 
 

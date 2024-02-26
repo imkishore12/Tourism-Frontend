@@ -46,7 +46,7 @@ function TourPackages(props) {
 <div className='moresuggestscard'>
 <div>
   <center><h1>India Tour Packages by Themes</h1></center><hr></hr>
-<p style={{fontSize:'18px'}}>
+<p className='para'>
 
 
 

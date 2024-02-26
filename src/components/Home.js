@@ -12,12 +12,12 @@ const[arr,setArr]=useState([])
   console.log(arr)
     return (
         <div>
-<img src='https://www.theindiatourism.com/images/tourism-india.webp' style={{width:'100%'}} />
+<img src='https://www.theindiatourism.com/images/tourism-india.webp' className='homeimg' />
 <div className='container'>
 <div className='moresuggestscard'>
 <div>
   <center><h1>The India Tourism - Guided & Customized Private Tour to India</h1></center><hr></hr>
-<p style={{fontSize:'18px'}}>
+<p  className='para'>
 
 
 
@@ -36,8 +36,9 @@ Foreign tourists who fly to India, You are certainly in for a surprise, particul
   </p>
 
   <div>
+  <br></br><br></br>
   <center><h2>Find your Ideal Tour Packages</h2></center><hr></hr>
-  <p style={{fontSize:'18px'}}>
+  <p  className='para'>
 
 Travel in India is like nothing you’ve ever experienced, from the magnificence Taj Mahal to the highlights of Kerala, Goa and India, this is a great trip for first-time visitors as it encompasses all of the major tourist destinations.
 
@@ -63,8 +64,9 @@ Travel in India is like nothing you’ve ever experienced, from the magnificence
                         
                     })}
  <div>
+ <br></br><br></br>
   <center><h2>Find your Perfect Holiday Destination</h2></center><hr></hr>
-  <p style={{fontSize:'18px'}}>
+  <p  className='para'>
 
   Check out this India most iconic heritage, natural beauty, colourful, cultural and spiritual Attractions India. Beaches, backwaters, vast stretches of deserts, snow-laden peaks and Indian wildlife sanctuaries make the country one of the best winter destinations.  
 
@@ -75,7 +77,7 @@ Travel in India is like nothing you’ve ever experienced, from the magnificence
                        return(
                            <>      
                            <Link to={`/details/${item.id}`} style={{textDecoration:'none'}}>       
-                           <div className='card cards1'>
+                           <div className='card cards'>
                            <img src={item.Image}  style={{width:'100%',height:'50%'}}/>
                            <hr></hr>
                            <h3 style={{padding:'2px 16px'}}>{item.State}</h3>
@@ -89,8 +91,9 @@ Travel in India is like nothing you’ve ever experienced, from the magnificence
                        
                    })}
                    <div>
+                    <br></br><br></br>
   <center><h2>Choose Your Style of Tour Packages</h2></center><hr></hr>
-  <p style={{fontSize:'18px'}}>
+  <p  className='para'>
 
   Our collection of tour are themed by a style to help you get the most out of your wonderful holiday in India whether you're looking for a small group tour, private tailor made holiday to see India, These packages are meant to cater every of your interest, and that too without hampering your comfort in the travel. The intriguing land of India has so much to explore. 
  
@@ -101,7 +104,7 @@ Travel in India is like nothing you’ve ever experienced, from the magnificence
                        return(
                            <>      
                            <Link to={`/details/${item.id}`} style={{textDecoration:'none'}}>       
-                           <div className='card cards1'>
+                           <div className='card cards'>
                            <img src={item.Image}  style={{width:'100%',height:'50%'}}/>
                            <hr></hr>
                            <h3 style={{padding:'2px 16px'}}>{item.State}</h3>

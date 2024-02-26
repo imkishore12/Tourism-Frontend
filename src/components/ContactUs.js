@@ -16,7 +16,7 @@ function ContactUs(props) {
 <div className='moresuggestscard'>
 <div>
   <center><h1>Contact Us</h1></center><hr></hr>
-<p style={{fontSize:'18px'}}>
+<p className='para'>
 
 Thank you for showing your interest in The India Tourism Tour & Travel services. Please provide the information about your tour requirements in order to help us to serve you better. This information will enable us to route your request to the appropriate person. You should receive a response within 24 hours.
   </p>

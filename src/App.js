@@ -25,6 +25,7 @@ function App() {
       </header> */}
       <Routing/>
       <Footer />
+      
       {/* <Navbar/> */}
     </div>
   );
