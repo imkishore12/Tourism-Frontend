@@ -17,7 +17,7 @@ function TourPackages(props) {
         navigate('/login')
     }
     else{
-        axios.get('https://tourismbackend.onrender.com/user/tourpackages', 
+        axios.get('https://tourbackend-mtgt.onrender.com/user/tourpackages', 
         {headers:{
             authorization: `Bearer ${token}`,
         },

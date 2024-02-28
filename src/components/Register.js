@@ -9,7 +9,7 @@ const Register = () => {
 
   const handleRegister = () => {
     try {
-      const response = axios.post("https://tourismbackend.onrender.com/user/register", { email, password })
+      const response = axios.post("https://tourbackend-mtgt.onrender.com/user/register", { email, password })
         .then((res) => {
           console.log(res.data, "register data");
 

@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 function PlacesToVisit(props) {
     const[arr,setArr]=useState([])
   useEffect(()=>{
-    axios.get('https://tourismbackend.onrender.com/products')
+    axios.get('https://tourbackend-mtgt.onrender.com/products')
     .then((response)=>setArr(response.data))
     .catch((err)=>console.log(err))
   },[])
